@@ -6,7 +6,7 @@
 			special_tokens_map.json · nlpaueb/legal-bert-base-uncased at main
 	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	<link rel="stylesheet" href="/front/build/style.23d26d3.css">
+	<link rel="stylesheet" href="/front/build/style.7506c01.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400;600;700&display=swap" >
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
@@ -21,7 +21,7 @@
 		<meta name="description" content="We’re on a journey to solve and democratize artificial intelligence through natural language.">
 	
 	<script defer src="/front/assets/github-buttons.js"></script>
-	<script defer src="/front/build/bundle.23d26d3.js"></script>
+	<script defer src="/front/build/bundle.7506c01.js"></script>
 </head>
 <body class="index_blob">
 	<div class="navbar">
@@ -120,8 +120,6 @@
 						<a href="/models?filter=en">en</a>
 						<a href="/models?filter=arxiv:2010.02559">arxiv:2010.02559</a>
 						<a href="/models?filter=legal">legal</a>
-						<a href="/models?filter=fill-mask">fill-mask</a>
-						<a href="/models?filter=pipeline_tag:fill-mask">pipeline_tag:fill-mask</a>
 			</div>
 	</div>
 	
@@ -148,7 +146,7 @@
 		>
 			<img src="/front/assets/icon-code.svg">
 				Use in transformers
-		</a>
+					</a>
 	</div>
 </div>
 
@@ -162,7 +160,7 @@
 					<p>
 						How to use this model directly from the
 							<a target="_blank" href="https://github.com/huggingface/transformers"><code>🤗/transformers</code></a>
-						library:
+												library:
 					</p>
 				</div>
 				<pre class="cli js-copy-clipboard">
@@ -172,7 +170,7 @@
 						tokenizer = AutoTokenizer.from_pretrained("nlpaueb/legal-bert-base-uncased")
 						
 						model = AutoModelForPreTraining.from_pretrained("nlpaueb/legal-bert-base-uncased")
-					
+										
 				</pre>
 				<div class="bottom-links">
 						<a target="_blank" href="/nlpaueb/legal-bert-base-uncased/blob/main/config.json">See raw config file</a>
