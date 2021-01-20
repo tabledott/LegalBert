@@ -1,0 +1,4 @@
+1. Upload Presumm_train to your google drive and open it with colab.
+2. Upload legal-bert-base-uncased to google drive
+3. Upload PResumm_legalBert/src to your root directory of your colab (or the same level as presumm_train from pt1)
+4. Run in Colab presumm_train, if you have errors they are probably related to wrong paths in pt1-3
